@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+  <meta charset="UTF-8">
+  <title>Gašperjeva spletna stran</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      color: #333;
+    }
+
+    h1 {
+      color: #2bace2;
+    }
+
+    .intro {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+    }
+
+    .gallery {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+
+     img {
+  max-width: 300px;
+  height: auto;
+  aspect-ratio: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  object-fit: cover;
+   }
+  </style>
+</head>
+<body>
+  <h1>Dobrodošel na moji spletni strani!</h1>
+  <p class="intro">
+    Sem Gašper Ambrožič, študent zaključnega letnika na Alma Mater Europaea, smer Spletne in informacijske tehnologije. 
+Poleg študija sem aktiven kot vodja marketinga v uspešnem podjetju, kjer skrbim za celostne strategije blagovne znamke in digitalno prisotnost.
+V prostem času se posvečam glasbi kot pianist, sproščam ob plavanju ter skrbim za kondicijo v fitnesu. Združujem tehnično znanje, ustvarjalnost in disciplino – tako v poslu kot v življenju.
+  </p>
+
+  <div class="gallery">
+  <img src="2.slika.JPG" alt="Lokalna slika">
+  
+  <!-- Ta slika je naložena iz Amazon S3 (javni URL) -->
+  <img src="https://gasper-slike.s3.us-east-1.amazonaws.com/DSC_4765.JPG" alt="Slika iz S3">
+</div>
+
+</body>
+</html>
+
